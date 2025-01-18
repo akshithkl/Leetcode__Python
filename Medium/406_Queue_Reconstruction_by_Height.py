@@ -39,15 +39,11 @@ After sorting based on the rules: [(-7, 0), (-7, 1), (-6, 1), (-5, 0), (-5, 2), 
 
 Insert [7, 0] at index 0:
 
-lua
-Copy
-Edit
 [[7, 0]]
 Insert [7, 1] at index 1:
 
-lua
-Copy
-Edit
+
+
 [[7, 0], [7, 1]]
 Insert [6, 1] at index 1:
 
@@ -57,27 +53,20 @@ Edit
 [[7, 0], [6, 1], [7, 1]]
 Insert [5, 0] at index 0:
 
-lua
-Copy
-Edit
+
+
 [[5, 0], [7, 0], [6, 1], [7, 1]]
 Insert [5, 2] at index 2:
 
-css
-Copy
-Edit
+
 [[5, 0], [7, 0], [5, 2], [6, 1], [7, 1]]
 Insert [4, 4] at index 4:
 
-css
-Copy
-Edit
+
 [[5, 0], [7, 0], [5, 2], [6, 1], [4, 4], [7, 1]]
 Final Correct Output:
 The reconstructed queue is:
 
-css
-Copy
-Edit
+
 [[5, 0], [7, 0], [5, 2], [6, 1], [4, 4], [7, 1]]
 '''
