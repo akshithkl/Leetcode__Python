@@ -15,3 +15,15 @@ class Solution(object):
 
 # Time Complexity: O(N)
 # Space Complexity: O(1)
+"""
+| Attribute      | Description                                        |
+| -------------- | -------------------------------------------------- |
+| **Algorithm**  | **Dynamic Programming**                            |
+| **Approach**   | **Bottom-Up (Tabulation)**                         |
+| **Technique**  | **Space-Optimized DP** using two variables         |
+| **Pattern**    | **Maximum Non-Adjacent Sum**                       |
+| **Time**       | `O(n)`                                             |
+| **Space**      | `O(1)`                                             |
+| **Strengths**  | Fast, clean, optimal space                         |
+| **Weaknesses** | No recursion insight; harder to trace step-by-step |
+"""
