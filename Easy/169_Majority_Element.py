@@ -14,6 +14,10 @@ class Solution(object):
 
         return res
 
+
+# Algorithm / Technique: Boyer-Moore Majority Vote Algorithm
+
+# Approach: Greedy / Voting Approach
         
 # ✅ Time and Space Complexity
 # ⏱ Time Complexity: O(n)
