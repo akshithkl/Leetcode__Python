@@ -28,3 +28,17 @@ class Solution(object):
 # | **Space Complexity** | `O(n + 2^n)`                  |
 # | **Best Case**        | Early match, closer to `O(n)` |
 # | **Worst Case**       | Explore full space            |
+'''
+                           i=0, cur=['0','0','0']
+                          /                     \
+            (keep '0') i=1              (set cur[0]='1') i=1
+            cur=['0','0','0']                cur=['1','0','0']
+             /        \                       /        \
+  (keep '0')       (set '1')        (keep '0')       (set '1')
+i=2 ['0','0','0'] ['0','1','0']    ['1','0','0']   ['1','1','0']
+   /     \           /    \          /   \           /   \
+...      ...       ...   ...       ...   ...       ...   ...
+→ i=3 → base case → join cur → check if in str_set
+→ return if not in set
+
+'''
